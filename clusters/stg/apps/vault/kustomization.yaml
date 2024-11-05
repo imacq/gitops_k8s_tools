@@ -1,14 +1,4 @@
-apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
-kind: Kustomization
-metadata:
-  name: vault-kustomization
-  namespace: flux-system
-spec:
-  interval: 10m
-  path: "./clusters/stg/apps/vault"
-  prune: true
-  sourceRef:
-    kind: GitRepository
-    name: flux-system
-    namespace: flux-system
-  targetNamespace: vault
+# gitops_k8s_tools/clusters/stg/apps/vault/kustomization.yaml
+resources:
+  - namespace.yaml
+  - helm-release.yaml
