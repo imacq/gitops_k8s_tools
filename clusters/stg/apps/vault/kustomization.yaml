@@ -2,4 +2,5 @@
 resources:
   - namespace.yaml
   - helm-release.yaml
-  - ../../apps/insfrastructure/helm-repositories.yaml
+  - helm-repositories.yaml
+  #- ../../apps/insfrastructure/helm-repositories.yaml
