@@ -11,7 +11,7 @@ spec:
       version: "0.24.1"  # Specify the Vault Helm chart version
       sourceRef:
         kind: HelmRepository
-        name: hashicorp/vault
+        name: hashicorp
         namespace: flux-system
   values:
     server:
