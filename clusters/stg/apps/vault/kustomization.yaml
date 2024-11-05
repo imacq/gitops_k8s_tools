@@ -2,4 +2,3 @@
 resources:
   - namespace.yaml
   - helm-release.yaml
-  - helm-repositories.yaml
