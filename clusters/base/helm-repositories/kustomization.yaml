@@ -1,0 +1,3 @@
+resources:
+  - hashicorp-helm-repo.yaml
+  - nginx-helm-repo.yaml

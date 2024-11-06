@@ -1,3 +1,4 @@
+# gitops_k8s_tools/clusters/base/helm-repositories/hashicorp-helm-repo.yaml
 apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: HelmRepository
 metadata:

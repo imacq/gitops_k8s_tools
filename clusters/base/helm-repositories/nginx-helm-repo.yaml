@@ -1,8 +1,8 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: HelmRepository
 metadata:
-  name: hashicorp
+  name: nginx-stable
   namespace: flux-system
 spec:
-  url: https://helm.releases.hashicorp.com
+  url: https://helm.nginx.com/stable
   interval: 1h

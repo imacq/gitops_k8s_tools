@@ -1,5 +1,5 @@
-# gitops_k8s_tools/clusters/stg/apps/vault/kustomization.yaml
 resources:
   - namespace.yaml
   - helm-release.yaml
-  - helm-repository.yaml
+  - ../../../../base/helm-repositories/kustomization.yaml
+  
